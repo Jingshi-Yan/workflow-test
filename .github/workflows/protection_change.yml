@@ -23,6 +23,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Stats and event info
         run: |
-          echo ${{ github.workflow}}!
-          echo Change made by ${{ github.actor}}
+        ${{ github.workflow}}
+      echo Change made by ${{ github.actor}}
           
